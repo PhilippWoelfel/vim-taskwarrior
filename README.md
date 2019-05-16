@@ -1,6 +1,10 @@
 vim-taskwarrior
 ===============
 
+This is a fork of `blindFS/vim-taskwarrior` (which is unmaintained), with the aim to fix some critical bugs.
+
+## Info from the original repo
+
 _a vim interface for [taskwarrior](https://taskwarrior.org)_
 
 Taskwarrior is a command-line todo list manager. It helps you manage task lists
