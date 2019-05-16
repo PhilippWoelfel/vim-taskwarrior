@@ -100,7 +100,7 @@ function! taskwarrior#action#delete()
 endfunction
 
 function! taskwarrior#action#remove()
-    execute '!task '.taskwarrior#data#get_uuid().' delete'
+    execute '!task '.taskwarrior#data#get_uuid().' rc.confirmation=no delete'
     call taskwarrior#list()
 endfunction
 
